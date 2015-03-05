@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D774AF0978080C04B17808D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A3DF682B636FEF410CA70 /* libPods.a */; };
+		D9EA5CE81AA8C70800D41BDC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA5CE71AA8C70800D41BDC /* MessageUI.framework */; };
+		D9EA5CEA1AA8C71600D41BDC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA5CE91AA8C71600D41BDC /* QuartzCore.framework */; };
+		D9EA5CEC1AA8C72100D41BDC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA5CEB1AA8C72100D41BDC /* Twitter.framework */; };
 		D9F41FF11AA85AF30017D5D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F41FF01AA85AF30017D5D7 /* main.m */; };
 		D9F41FF41AA85AF30017D5D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F41FF31AA85AF30017D5D7 /* AppDelegate.m */; };
 		D9F41FF71AA85AF30017D5D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F41FF61AA85AF30017D5D7 /* ViewController.m */; };
@@ -29,6 +32,9 @@
 		1C2A3DF682B636FEF410CA70 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96851006110274C544A1F96 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CBF003E3A147EB2EEEEE8F56 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D9EA5CE71AA8C70800D41BDC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D9EA5CE91AA8C71600D41BDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9EA5CEB1AA8C72100D41BDC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		D9F41FEB1AA85AF30017D5D7 /* TOWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F41FEF1AA85AF30017D5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F41FF01AA85AF30017D5D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EA5CEC1AA8C72100D41BDC /* Twitter.framework in Frameworks */,
+				D9EA5CEA1AA8C71600D41BDC /* QuartzCore.framework in Frameworks */,
+				D9EA5CE81AA8C70800D41BDC /* MessageUI.framework in Frameworks */,
 				D774AF0978080C04B17808D1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +141,9 @@
 		F4DFA10468C478EFB8B18819 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9EA5CEB1AA8C72100D41BDC /* Twitter.framework */,
+				D9EA5CE91AA8C71600D41BDC /* QuartzCore.framework */,
+				D9EA5CE71AA8C70800D41BDC /* MessageUI.framework */,
 				1C2A3DF682B636FEF410CA70 /* libPods.a */,
 			);
 			name = Frameworks;
