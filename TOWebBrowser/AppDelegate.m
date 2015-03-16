@@ -30,7 +30,7 @@
 
     self.navController = [[UINavigationController alloc] initWithRootViewController:webViewController];
     self.window.rootViewController = self.navController;
-
+    
     return YES;
 }
 
